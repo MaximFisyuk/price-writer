@@ -1,11 +1,5 @@
 {
-    "name": "maximfisyuk/price-writer",
-    "authors": [
-        {
-            "name": "Maxim Fisyuk",
-            "email": "maxim.fisyuk@gmail.com"
-        }
-    ],
+    "name": "maxxfs/price-writer",
     "require": {
         "php": ">=5.3.0"
     },

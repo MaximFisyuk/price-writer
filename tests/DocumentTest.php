@@ -7,8 +7,6 @@
 class DocumentTest extends PHPUnit_Framework_TestCase{
 
 	public function testExample(){
-
-
 //		$doc = new \priceWriter\Document("php://output");
 //		$catalog = $doc->openElement("yml_catalog");
 //		$shop = $doc->openElement("shop");
