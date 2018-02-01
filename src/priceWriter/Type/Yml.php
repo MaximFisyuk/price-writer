@@ -1,9 +1,9 @@
 <?php
 
-namespace priceWriter\Type;
+namespace maxxfs\priceWriter\Type;
 
-use priceWriter\Document;
-use priceWriter\Element;
+use maxxfs\priceWriter\Document;
+use maxxfs\priceWriter\Element;
 
 class Yml
 {
@@ -59,7 +59,6 @@ class Yml
         $this->document->openElement("yml_catalog", array(
             "date" => $date->format("Y-m-d H:i")));
     }
-
 
     public function startShop(array $options)
     {
@@ -166,7 +165,6 @@ class Yml
         if (is_array($offer)) {
             $offer = Element\YmlOffer::factory($offer);
         }
-
 
         $attr = array('id' => $offer->getId());
         if ($offer->getType()) {

@@ -1,6 +1,6 @@
 <?php
 
-namespace priceWriter;
+namespace maxxfs\priceWriter;
 
 class ElementWriter
 {
@@ -13,7 +13,6 @@ class ElementWriter
 
     public function startElement(Element $element)
     {
-
         $this->xmlWriter->startElement($element->getName());
         $attr = $element->getAttr();
         foreach ($attr as $k => $v) {

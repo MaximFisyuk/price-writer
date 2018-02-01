@@ -1,19 +1,16 @@
 <?php
-/**
- * @author: Maxim Fisyuk <maxim.fisyuk@gmail.com>
- * @date: 04.11.14 09:08
- */
 
-class YmlTest extends PHPUnit_Framework_TestCase
+namespace tests\priceWriter\Type;
+
+use maxxfs\priceWriter\Type\Yml;
+
+class YmlTest extends \PHPUnit\Framework\TestCase
 {
-
     public function testCreate()
     {
-
-
-        //$filename = tempnam(sys_get_temp_dir(), __CLASS__);
+       //$filename = tempnam(sys_get_temp_dir(), __CLASS__);
         $filename = "php://output";
-        $yml = new \priceWriter\Type\Yml($filename);
+        $yml = new Yml($filename);
 
         $yml->startShop(array(
             "name" => "BestShop",

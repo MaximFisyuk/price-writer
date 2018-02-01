@@ -1,8 +1,8 @@
 <?php
 
-namespace priceWriter\Element;
+namespace maxxfs\priceWriter\Element;
 
-class AbstractOffer
+abstract class AbstractOffer
 {
     protected $id;
 

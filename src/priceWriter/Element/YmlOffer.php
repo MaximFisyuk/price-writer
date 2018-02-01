@@ -1,8 +1,8 @@
 <?php
 
-namespace priceWriter\Element;
+namespace maxxfs\priceWriter\Element;
 
-class YmlOffer extends AbstractOffer
+final class YmlOffer extends AbstractOffer
 {
     protected $type;
 

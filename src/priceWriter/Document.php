@@ -1,6 +1,6 @@
 <?php
 
-namespace priceWriter;
+namespace maxxfs\priceWriter;
 
 class Document
 {
